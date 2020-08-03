@@ -45,7 +45,7 @@ var svg = d3.select("body")
               "translate(" + margin.left + "," + margin.top + ")");
 
 // Get the data
-d3.csv("data2.csv", function(error, data) {
+d3.csv("data.csv", function(error, data) {
     data.forEach(function(d) {
 //        d.wealth = parseDate(d.wealth);
 
